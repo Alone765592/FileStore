@@ -33,10 +33,10 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Pooja:Jaat@cluster0.k1axj
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Rkn_Sofi")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Sofi_Backup")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/KDH.jpg")
+START_PIC = os.environ.get("START_PIC", "https://image.zaw-myo.workers.dev/image/5ac5d5da-c3e6-4b34-9b75-fefd36a70fb7")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 #--------------------------------------------
 
